@@ -9,10 +9,6 @@ data/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Ignore embeddings but keep folder
-embeddings/*
-!embeddings/.gitkeep
-
 # Ignore models but keep folder
 models/*
 !models/.gitkeep
