@@ -32,6 +32,6 @@ def scrape(topics):
         file_path = os.path.join(RAW_DIR, {topics})
         
         with open(file_path, "w", encoding="utf-8") as f:
-    f.write(text)
+            f.write(text)
             
 print("Fichier enregistré dans  {file_path} \n Scraping terminé")
