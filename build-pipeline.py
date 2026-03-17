@@ -5,9 +5,10 @@ from src.indexer import build_index
 
 topics = ["meaning", "reference", "semantics", "speech-acts"]
 
-scrape(topics)
-preprocess_folder()
-build_embeddings()
-build_index()
+if __name__ == "__main__":
+  scrape(topics)
+  preprocess_folder()
+  build_embeddings()
+  build_index()
 
-print("Pipeline terminé")
+  print("Pipeline terminé")
