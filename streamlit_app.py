@@ -4,7 +4,8 @@ from src.search import search
 from build_pipeline import build_pipeline
 
 if not os.path.exists("models/faiss_index.bin"):
-    build_pipeline()
+    st.error("Please run build_pipeline.py first")
+    st.stop()
     
 st.set_page_config(page_title="Semantic Philosophy Search", layout="centered")
 
