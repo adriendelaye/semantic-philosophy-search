@@ -12,3 +12,5 @@ if __name__ == "__main__":
   build_index()
 
   print("Pipeline terminé")
+
+scrape(topics)
