@@ -1,7 +1,18 @@
 __pycache__/
 *.pyc
-data/raw/
-data/processed/
-embeddings/
-models/
 .env
+
+# Ignore data content but keep structure
+data/*
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore embeddings but keep folder
+embeddings/*
+!embeddings/.gitkeep
+
+# Ignore models but keep folder
+models/*
+!models/.gitkeep
